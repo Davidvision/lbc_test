@@ -1,0 +1,29 @@
+{
+	"info": {
+		"_postman_id": "359bd84c-40ad-4a76-8a63-c3f3e4d2070e",
+		"name": "Lbc_test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Today's firefighter",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/firefighter/new",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"firefighter",
+						"new"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
